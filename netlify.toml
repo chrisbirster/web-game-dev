@@ -1,8 +1,8 @@
 # example netlify.toml
 [build]
-  command = "pnpm build"
+  command = "pnpm turbo build"
   functions = "netlify/functions"
-  base = "apps/web"
+  base = "apps/web/"
   publish = ".next"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
