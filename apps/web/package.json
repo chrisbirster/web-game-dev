@@ -1,5 +1,5 @@
 {
-  "name": "@acme/nextjs",
+  "name": "@wgd/web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,9 +12,9 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@acme/api": "*",
-    "@acme/db": "*",
-    "@acme/tailwind-config": "*",
+    "@wgd/api": "*",
+    "@wgd/db": "*",
+    "@wgd/tailwind-config": "*",
     "@clerk/nextjs": "^4.11.0",
     "@tanstack/react-query": "^4.16.1",
     "@trpc/client": "^10.1.0",

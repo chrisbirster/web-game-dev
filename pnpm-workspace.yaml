@@ -1,5 +1,5 @@
 packages:
-  - apps/www
+  - apps/web
   - packages/api
   - packages/db
   - packages/config/*
